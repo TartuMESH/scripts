@@ -58,7 +58,7 @@ ifconfig bat0 up
 if [[ -z "$INET" ]]; then
 
     sleep $WAIT
-    dhclient -v bat0
+    dhclient -v wlan0
 
 else
 
